@@ -46,7 +46,7 @@ const Navbar = () => {
                 {/* <button>
                     <Image src={dark ? assets.sun_icon : assets.moon_icon} alt='' className='w-6 border ' />
                 </button> */}
-                <a href="#" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>
+                <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>
                     Contact <Image src={assets.arrow_icon} alt='contact' className='w-3' /> 
                 </a>
                 <button onClick={openMenu} className='block md:hidden ml-3'>

@@ -45,10 +45,10 @@ import node from './node.webp'
 import express from './express-js.png'
 import postgresql from './postgresql.png'
 import nextjs from './nextjs.webp'
-import work1 from './work-1.png'
-import work2 from './work-2.png'
-import work3 from './work-3.png'
-import work4 from './work-4.png'
+import work1 from './bigbasket.png'
+import work2 from './croma.png'
+import work3 from './school.png'
+import work4 from './medium.png'
 
 export const assets = {
     OIP,
@@ -106,24 +106,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: work1
+        title: 'BigBasket',
+        description: 'Frontend-Project',
+        bgImage: work1,
+        link: "https://bigbasket12321.netlify.app/"
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: work2
+        title: 'Croma Clone',
+        description: 'E-Commerce Application',
+        bgImage: work2,
+        link: "https://cromaproject.netlify.app/"
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: work3
+        title: 'School Management System',
+        description: 'Full Stack Project',
+        bgImage: work3,
+        link: "https://schoolmanag.netlify.app/"
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: work4
+        title: 'Medium',
+        description: 'Social Media Application',
+        bgImage: work4,
+        link: "https://nextjs-medium-euqf.vercel.app"
     },
 ]
 
