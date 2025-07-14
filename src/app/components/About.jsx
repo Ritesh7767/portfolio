@@ -9,7 +9,7 @@ const About = () => {
         <h2 className='text-center text-5xl font-Ovo'>About me</h2>
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                <Image src={assets.user_image} alt="user" className="w-full rounded-3xl" />
+                <Image src={assets.profile_img} alt="user" className="w-full rounded-3xl" />
             </div>
             <div className='flex-1'>
                 <p className='max-w-2xl font-Ovo'>
@@ -21,7 +21,7 @@ const About = () => {
                 <p className='max-w-2xl font-Ovo'>I’m currently looking for exciting opportunities where I can contribute, grow, and innovate as a developer.</p>
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                     {
-                        infoList.map(({icon, iconDark, title, description}, index)=>(
+                        infoList.map(({icon, title, description}, index)=>(
                         <li key={index} className='border-[0.5px] hover:shadow-lg hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 border-gray-400 rounded-xl p-6 cursor-pointer'>
                             <Image className='w-7 mt-3' alt='title' src={icon}  />
                             <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>

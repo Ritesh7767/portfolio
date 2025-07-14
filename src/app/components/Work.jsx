@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Work = () => {
   return (
-    <div className='w-full px-[12%] py-10 scroll-mt-20'>
+    <div className='w-full px-[12%] py-10 scroll-mt-20' id='projects'>
         <h2 className='text-center text-5xl font-Ovo'>My portfolio</h2>
         <h4 className='text-center mb-2 text-lg font-Ovo'>My latest work</h4>
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end as well as back-end development.</p>
