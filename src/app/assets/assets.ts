@@ -109,26 +109,30 @@ export const workData = [
         title: 'BigBasket',
         description: 'Frontend-Project',
         bgImage: work1,
-        link: "https://bigbasket12321.netlify.app/"
+        link: "https://bigbasket12321.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript"]
     },
     {
         title: 'Croma Clone',
         description: 'E-Commerce Application',
         bgImage: work2,
-        link: "https://cromaproject.netlify.app/"
+        link: "https://cromaproject.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript", "React"]
     },
     {
         title: 'School Management System',
         description: 'Full Stack Project',
         bgImage: work3,
-        link: "https://schoolmanag.netlify.app/"
+        link: "https://schoolmanag.netlify.app/",
+        tech: ["HTML", "CSS", "Javascript", "React", "Node", "Express", "Mongodb"]
     },
     {
         title: 'Medium',
         description: 'Social Media Application',
         bgImage: work4,
-        link: "https://nextjs-medium-euqf.vercel.app"
-    },
+        link: "https://nextjs-medium-euqf.vercel.app",
+        tech: ["HTML", "CSS", "Javascript", "Nextjs", "PostgreSql"]
+    }
 ]
 
 export const skills = [

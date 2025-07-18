@@ -11,7 +11,7 @@ const Skills = () => {
 
         <div className='grid grid-cols-5 gap-x-3 gap-y-4 my-10'>
             {
-                skills.map((ele, index) => <Image src={ele.src} alt='skill-image' key={index} width={150} height={150} className='border border-gray-50 rounded-xl shadow-lg hover:-translate-y-3 aspect-square duration-500'/>)
+                skills.map((ele, index) => <Image src={ele.src} alt='skill-image' key={index} width={150} height={150} className='border border-gray-50 bg-white rounded-xl shadow-lg hover:-translate-y-3 aspect-square duration-500'/>)
             }
         </div>
     </div>
