@@ -44,7 +44,18 @@ import react from './react.jpg'
 import node from './node.webp'
 import express from './express-js.png'
 import postgresql from './postgresql.png'
+import redux from './redux.webp'
+import tailwind from './tailwind css.webp'
+import docker from './docker.webp'
+import graphql from './graphql.webp'
 import nextjs from './nextjs.webp'
+import vs_code from './vs-code.png'
+import gitt from './git.png'
+import postman from './postman.jpg'
+import githubb from './github.webp'
+import vercel from './vercel.webp'
+import netlify from './netlify.webp'
+import mongoCompass from './mongoCompass.png'
 import work1 from './bigbasket.png'
 import work2 from './croma.png'
 import work3 from './school.png'
@@ -98,6 +109,16 @@ export const assets = {
     postgresql,
     nextjs,
     typescript,
+    tailwind,
+    graphql,
+    docker,
+    redux,
+    vs_code,
+    gitt,
+    postman,
+    vercel,
+    netlify,
+    mongoCompass,
     work1,
     work2,
     work3,
@@ -136,20 +157,24 @@ export const workData = [
 ]
 
 export const skills = [
-    html, css, js, react, node, express, mongodb, postgresql, nextjs, typescript
+    html, css, js, react, node, express, mongodb, postgresql, nextjs, typescript, tailwind, redux, docker, graphql
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+export const tools = [
+    vs_code, git, githubb, postman, vercel, netlify, mongoCompass
 ]
+
+// export const serviceData = [
+//     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+//     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+//     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+//     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+// ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Node, Express, Mongodb' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Node, Express, Mongodb, PostgreSql' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BCA' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
 export const toolsData = [

@@ -24,13 +24,13 @@ const About = () => {
                         infoList.map(({icon, title, description}, index)=>(
                         <li key={index} className='border-[0.5px] hover:shadow-lg hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 border-gray-400 rounded-xl p-6 cursor-pointer'>
                             <Image className='w-7 mt-3' alt='title' src={icon}  />
-                            <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
-                            <p className='text-gray-600 text-sm'>{description}</p>
+                            <h3 className='my-4 font-semibold'>{title}</h3>
+                            <p className='text-sm'>{description}</p>
                         </li>
                     ))
                     }
                 </ul>
-                <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
+                {/* <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
                 <ul className='flex items-center gap-3 sm:gap-5'>
                     {
                         toolsData.map((tool, index) => (
@@ -39,7 +39,7 @@ const About = () => {
                             </li>
                         ))
                     }
-                </ul>
+                </ul> */}
             </div>
         </div>
 
